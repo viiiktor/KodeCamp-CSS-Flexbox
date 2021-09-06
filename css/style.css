@@ -1,0 +1,299 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.row{
+      width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-column{
+    width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-100{
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-font{
+    font-family: 'playfair display', serif;
+}
+
+.custom-btn {
+    color: white;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background: url('../images/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-heading{
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.banner-text{
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    padding: 30px;
+    color: black;
+}
+
+.annon-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.annon {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.annon span{
+    font-size: 6rem;
+    line-height: 0;
+}
+
+.annon-section p{
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.gallery .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .gallery-img-1 {
+    background-image: url('../images/gallery-1.jpeg');
+}
+
+.gallery .gallery-img-2 {
+    background-image: url('../images/gallery-2.jpeg');
+}
+
+.gallery .gallery-img-3 {
+    background-image: url('../images/gallery-3.jpeg');
+}
+
+.gallery .gallery-img-4 {
+    background-image: url('../images/gallery-4.jpeg');
+}
+
+.gallery .gallery-img-5 {
+    background-image: url('../images/gallery-5.jpeg');
+}
+
+.gallery .gallery-img-6 {
+    background-image: url('../images/gallery-6.jpeg');
+}
+
+.coming-soon{
+    text-align: center;
+    background-color:#d9b1b3;
+    color: white;
+    padding: 40px 0 80px 0;
+}
+
+.coming-soon .coming-soon-heading {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.coming-soon .coming-soon-text {
+    padding-bottom: 55px;
+    font-size: 1.4rem;
+}
+
+.coming-soon-1 .input1{
+    padding: 20px 35px;
+    border-radius: 12cm;
+    border: none;
+}
+
+.article-section {
+    padding: 50px 100px;
+}
+
+.article-img .art-img{
+    width: 400px;
+    height: 550px;
+}
+
+.article1{
+    gap: 1.5cm;
+}
+
+.article-text{
+    padding-top: 90px;
+    font-size: 1.3rem;
+    text-align: justify; 
+}
+
+.collection .collection-section{
+    text-align: center;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.collection-text{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.display{
+    width: 270px;
+    height: 350px;
+    padding-left: 0.3rem;
+}
+
+.arrow{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.product{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.product-1{
+    width: 330px;
+    height: 370px;
+    padding-right: 20px;
+}
+
+.p-text{
+    padding: 50px 0 0 20px ;
+    width: 30%;
+}
+
+.p-text p{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.p-text h3{
+    font-weight: lighter;
+    padding-bottom: 0;
+    font-size: 2.0rem;
+} 
+
+.p-text .button{
+    padding: 15px 70px;
+    border-radius: 12cm;
+    border: none;
+}
+
+.footer-section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.image-sub{
+    width: 700px;
+    height: 900px;
+    background-position: center;
+    padding-right: 20px;
+}
+
+hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9b1b3;
+    height: 12px;
+    border: none;
+}
+
+.sub-text{
+    font-style: italic;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    gap: 0.5cm;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe-form .enter1{
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.subscribe-sec{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.button{
+    padding: 15px 40px;
+    border-radius: 12cm;
+    border: none;
+}
+
+.subscribe-sec .paragraph{
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 150px;
+} 
+
+.social-logo{
+    width: 30px;
+    height: 40px;
+}
