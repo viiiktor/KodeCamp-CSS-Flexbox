@@ -68,7 +68,7 @@ header{
 .annon-section {
     display: flex;
     justify-content: center;
-    padding: 90px 0;
+    padding: 100px 0;
     background-color: #d9b1b3;
     color: white;
 }
@@ -80,7 +80,7 @@ header{
 }
 
 .annon span{
-    font-size: 6rem;
+    font-size: 5rem;
 /*     line-height: 0; */
 }
 
