@@ -184,13 +184,13 @@ header{
 .collection-text{
     padding-top: 45px;
     padding-bottom: 20px;
-    font-size: 4rem;
+    font-size: 5rem;
     font-style: italic;
 }
 
 .display{
-    width: 270px;
-    height: 350px;
+    width: 280px;
+    height: 390px;
     padding-left: 0.3rem;
 }
 
