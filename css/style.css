@@ -234,15 +234,25 @@ header{
     overflow-x: hidden;
 }
 
-.image-sub{
+.image-subscribe{
+    max-width: 50%;
+    background-image: url("../images/subscribe.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+/* .image-sub{
     width: 700px;
     height: 900px;
     background-position: center;
     padding-right: 20px;
-}
+} */
 
 hr{
-    width: 90%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: #d9b1b3;
