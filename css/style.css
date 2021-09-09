@@ -11,13 +11,13 @@ body{
 }
 
 .row{
-      width: 80%;
+      width: 95%;
     display: flex;
     flex-direction: row;
 }
 
 .row-column{
-    width: 80%;
+    width: 85%;
   display: flex;
   flex-direction: column;
 }
@@ -45,36 +45,37 @@ header{
     justify-content: center;
     align-items: flex-end;
     color: white;
-    padding: 60px;
+    padding: 70px 40px;
     background: url('../images/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .banner-heading{
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-style: italic;
-    padding: 0 2rem;
+    padding: 0 3rem;
+    padding-top: 30px;
 }
 
 .banner-text{
-    font-size: 0.9rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: lighter;
     background-color: white;
-    padding: 30px;
+    padding: 70px 40px;
     color: black;
 }
 
 .annon-section {
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding: 80px 130px 80px 30px;
     background-color: #d9b1b3;
     color: white;
 }
 
 .annon {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-style: italic;
     margin-bottom: 15px;
 }
@@ -85,12 +86,13 @@ header{
 }
 
 .annon-section p{
-    width: 50%;
+    width: 55%;
     font-size: 1rem;
+    text-align: justify;
 }
 
 .gallery .img-container{
-    height: 450px;
+    height: 550px;
     display: flex;
     flex-grow: 1;
     overflow: hidden;
@@ -131,8 +133,9 @@ header{
 }
 
 .coming-soon .coming-soon-heading {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-style: italic;
+    font-weight: bold;
 }
 
 .coming-soon .coming-soon-text {
@@ -166,11 +169,10 @@ header{
 }
 
 .article-text p{
-    width: 90%;
+    width: 95%;
 }
 
 .article-text img{
-    padding-top: 30px;
     width: auto;
     height: 80px;
 }
