@@ -170,6 +170,7 @@ header{
 
 .article-text p{
     width: 95%;
+    padding-bottom: 10px;
 }
 
 .article-text img{
